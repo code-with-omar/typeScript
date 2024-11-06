@@ -1,4 +1,4 @@
-let userName: string
+let hello: string
 userName = "Omar Faruk"
 console.log(userName)
 
