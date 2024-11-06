@@ -15,3 +15,4 @@ console.log(fullName.toUpperCase());
 function display() {
     console.log("Hello Programmer");
 }
+display();

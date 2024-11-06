@@ -18,3 +18,4 @@ console.log(fullName.toUpperCase())
 function display(): void {
     console.log("Hello Programmer")
 }
+display()
