@@ -19,3 +19,10 @@ function display(): void {
     console.log("Hello Programmer")
 }
 display()
+
+let n: null
+let n2: undefined
+
+function throwError(message: string): never {
+    throw new Error(message);
+  }

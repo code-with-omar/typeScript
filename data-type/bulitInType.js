@@ -4,7 +4,7 @@ var userId;
 var isActive;
 userId = 190605;
 firstName = "Md. Omar";
-lastName = "Faruk";
+lastName = " Faruk";
 isActive = true;
 var fullName = firstName.concat(lastName);
 console.log({ userId: userId, fullName: fullName, isActive: isActive });
@@ -16,3 +16,8 @@ function display() {
     console.log("Hello Programmer");
 }
 display();
+var n;
+var n2;
+function throwError(message) {
+    throw new Error(message);
+}
