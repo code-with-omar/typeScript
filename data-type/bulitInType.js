@@ -9,15 +9,17 @@ isActive = true;
 var fullName = firstName.concat(lastName);
 console.log({ userId: userId, fullName: fullName, isActive: isActive });
 console.log(fullName.split(" "));
-console.log(fullName.split(''));
+console.log(fullName.split(""));
 console.log(fullName.toLowerCase());
 console.log(fullName.toUpperCase());
 function display() {
-    console.log("Hello Programmer");
+  console.log("Hello Programmer");
+  console.log("Hello Programmer");
 }
 display();
 var n;
 var n2;
 function throwError(message) {
-    throw new Error(message);
+  throw new Error(message);
+
 }

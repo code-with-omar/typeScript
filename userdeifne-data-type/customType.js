@@ -19,5 +19,6 @@ var getRequest;
 getRequest = "GET";
 function requestHandler(requestType) {
     console.log(requestType);
+    console.log(12)
 }
 requestHandler("POST");
