@@ -6,7 +6,7 @@ class User {
     this.userName = userName;
     this.age = age;
     console.log(`username: ${this.userName}, age: ${this.age}`);
-  }
+  } 
 
   display(): void {
     console.log(`username: ${this.userName}, age: ${this.age}`);
